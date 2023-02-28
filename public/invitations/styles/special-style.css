@@ -1,0 +1,99 @@
+html, body {
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.open-main-page-transition {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+    transition: transform 1s ease-in, opacity 1s ease-in;
+    z-index: 0;
+}
+
+.magnify-modal {
+    background-color: #dce1de;
+    border-radius: 12px;
+}
+
+.magnify-modal .magnify-footer {
+    color: #ef6351;
+}
+
+.magnify-modal .magnify-header .magnify-title {
+    color: #ef6351;
+    font-weight: bolder;
+    font-family: font-MontserratBold;
+}
+
+.magnify-modal .magnify-header .magnify-button {
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.magnify-modal .magnify-header .magnify-button.magnify-button-close {
+    background-color: #ef6351;
+    margin-left: 8px;
+}
+
+.magnify-modal .magnify-header .magnify-button.magnify-button-maximize {
+    background-color: #618b95ff;
+}
+
+.magnify-modal .magnify-stage {
+    background-color: #dce1de;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/invitations/fonts/MontserratAlternatesLight.ttf") ;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "MontserratBold";
+    src: url("/invitations/fonts/MontserratAlternatesRegular.ttf") ;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "RadicalsDemo";
+    src: url("/invitations/fonts/RadicalsDemo.ttf") ;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "KalunaScriptDemo";
+    src: url("/invitations/fonts/KalunaScriptDemo.otf") ;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "ShareDong";
+    src: url("/invitations/fonts/ShareDong.ttf") ;
+    font-display: block;
+}
+
+.font-Montserrat {
+    font-family: "Montserrat";
+}
+
+.font-MontserratBold {
+    font-family: "MontserratBold";
+}
+
+
+.font-RadicalsDemo {
+    font-family: "RadicalsDemo";
+}
+
+.font-KalunaScriptDemo {
+    font-family: "KalunaScriptDemo";
+}
+
+.font-ShareDong {
+    font-family: "ShareDong";
+}
+
